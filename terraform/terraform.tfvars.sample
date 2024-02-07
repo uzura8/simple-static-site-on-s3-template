@@ -1,0 +1,9 @@
+# General
+prj_prefix = "your-project-prd"
+environment = "prd" # prd / dev
+
+region_site     = "ap-northeast-1"
+region_acm      = "us-east-1"
+route53_zone_id = "Set your route53 zone id"
+
+domain_static_site = "your-domain.example.com"
