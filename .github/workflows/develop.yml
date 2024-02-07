@@ -52,7 +52,7 @@ jobs:
         env:
           S3_RESOURCE_BUCKET: ${{ vars.S3_RESOURCE_BUCKET_DEV }}
         run: |
-          cd frontend
+          #cd frontend
           aws s3 sync ./public s3://$S3_RESOURCE_BUCKET
 
       # Clear CloudFront Caches
